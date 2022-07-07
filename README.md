@@ -1,7 +1,6 @@
 # .github/workflows/push-to-registry.yaml
 
-A ready-to-use Github action workflow for pushing container images to ghcr.io
-
+A ready-to-use Github action workflow for [pushing container images to ghcr.io](push-to-registry.yaml)
 
 - builds a multi-architecture image for amd64 and arm64 
 - pushes into the container registry corresponding to the repository
