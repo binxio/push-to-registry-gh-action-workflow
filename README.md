@@ -1,6 +1,6 @@
 # .github/workflows/push-to-registry.yaml
 
-A ready-to-use Github action workflow for [pushing container images to ghcr.io](push-to-registry.yaml)
+A ready-to-use Github action workflow for pushing container images to ghcr.io.
 
 - builds a multi-architecture image for amd64 and arm64 
 - pushes into the container registry corresponding to the repository
@@ -17,7 +17,7 @@ $ [[ -n $(git tag) ]] || git tag 0.0.0
 # add the workflow
 $ mkdir -p .github/workflows/
 $ curl -sS -L -o .github/workflows/push-to-registry.yaml \
-     https://raw.githubusercontent.com/binxio/push-to-registry-gh-action-workflow/main/push-to-registry.yaml
+     https://raw.githubusercontent.com/binxio/push-to-registry-gh-action-workflow/main/.github/workflows/push-to-registry.yaml
 $ git add .
 $ git commit -m 'added push to ghcr.io workflow'
 $ git push 
